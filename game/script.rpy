@@ -130,8 +130,6 @@ label level_1_part_5:
     e 'Apa itu API?'
     menu:
         "API adalah Application Programming Interface.":
-            e 'Ari mengambil napas dalam-dalam dan menjawab, "Application Programming Interface!" Cahaya terang melesat ke langit, dan bagian terakhir menyatu dengan menara, menyelesaikan struktur megah tersebut.'
-            e 'Menara Teknologi kini berdiri tegak, bersinar dengan kemegahan dan kekuatan. Ari merasa bangga dan bahagia, karena ia telah berhasil menjawab semua tantangan dan membangun kembali simbol pengetahuan teknologi.'
             jump level_1_completed
         "API adalah Advanced Protocol Integration.":
             jump try_again_level_1_5
@@ -142,7 +140,8 @@ label level_1_part_5:
 
 label level_1_completed:
     scene bg level1_completed
-    e "Selamat! Tower level ini selesai dibangun!"
+    e 'Ari mengambil napas dalam-dalam dan menjawab, "Application Programming Interface!" Cahaya terang melesat ke langit, dan bagian terakhir menyatu dengan menara, menyelesaikan struktur megah tersebut.'
+    e 'Menara Teknologi kini berdiri tegak, bersinar dengan kemegahan dan kekuatan. Ari merasa bangga dan bahagia, karena ia telah berhasil menjawab semua tantangan dan membangun kembali simbol pengetahuan teknologi.'
     jump main_menu
 
 label try_again_level_1:
@@ -168,14 +167,17 @@ label try_again_level_1_5:
 # Implementasi Level 2
 label level_2:
     scene bg level2_start
-    e "Aku akan menghadapi tantangan yang lebih sulit. Ini level kedua!"
+    e 'Setelah menyelesaikan Menara Pemula, Ari melihat bayangan menara lain di kejauhan. Suara misterius itu kembali berbicara, "Tantangan berikutnya ada di Menara Pengetahuan Menengah.'
+    e 'Di sini, kau akan diuji lebih jauh dengan pertanyaan-pertanyaan yang lebih mendalam tentang teknologi."'
     jump level_2_part_1
 
 label level_2_part_1:
     scene bg level2_1
-    e "Bagian pertama dimulai. Jawab pertanyaan ini!"
+    e 'Ari tiba di lokasi Menara Pengetahuan Menengah. Menara ini sudah berdiri sebagian, namun terlihat belum sempurna. "Bagian pertama adalah fondasi kuat yang baru," kata suara itu. "Jawab pertanyaan ini:"'
+    e 'Apa kepanjangan dari HTML?'
     menu:
         "HTML adalah HyperText Markup Language.":
+            e 'Ari menjawab, "HTML adalah HyperText Markup Language!" Fondasi menara bersinar lebih terang, memberikan stabilitas pada strukturnya.'
             jump level_2_part_2
         "HTML adalah HighText Machine Language.":
             jump try_again_level_2
@@ -186,9 +188,11 @@ label level_2_part_1:
 
 label level_2_part_2:
     scene bg level2_2
-    e "Bagian kedua selesai. Jawab pertanyaan berikutnya!"
+    e 'Bagian berikutnya muncul. "Kita butuh jalur penghubung di sini. Jawablah:"'
+    e 'Apa itu URL?'
     menu:
         "URL adalah Uniform Resource Locator.":
+            e '"URL adalah Uniform Resource Locator!" jawab Ari dengan percaya diri. Bagian kedua menara terangkat, memperkuat koneksi antarbagian.'
             jump level_2_part_3
         "URL adalah Universal Resource Locator.":
             jump try_again_level_2_1
@@ -199,9 +203,11 @@ label level_2_part_2:
 
 label level_2_part_3:
     scene bg level2_3
-    e "Bagian ketiga sangat penting! Jawab pertanyaan ini!"
+    e '"Keindahan menara ini membutuhkan gaya," kata suara itu.'
+    e '"Apa kegunaan CSS?"'
     menu:
         "CSS digunakan untuk mengatur gaya halaman web.":
+            e '"CSS digunakan untuk mengatur gaya halaman web!" Bagian ketiga menara bersinar cerah, melengkapi estetika menara.'
             jump level_2_part_4
         "CSS digunakan untuk membuat struktur halaman web.":
             jump try_again_level_2_3
@@ -212,9 +218,10 @@ label level_2_part_3:
 
 label level_2_part_4:
     scene bg level2_4
-    e "Bagian keempat hampir selesai. Pertanyaan ini kunci!"
+    e '"Selanjutnya, kita butuh kekuatan logika. Apa itu JavaScript?"'
     menu:
         "JavaScript adalah bahasa pemrograman untuk web.":
+            e '"JavaScript adalah bahasa pemrograman untuk web!" Bagian keempat menara mulai berdenyut dengan energi dinamis.'
             jump level_2_part_5
         "JavaScript adalah framework untuk backend.":
             jump try_again_level_2_4
@@ -225,9 +232,10 @@ label level_2_part_4:
 
 label level_2_part_5:
     scene bg level2_5
-    e "Ini adalah bagian terakhir! Jawab pertanyaan terakhir!"
+    e '"Dan terakhir, jawab pertanyaan ini: Apa itu HTTP?"'
     menu:
         "HTTP adalah HyperText Transfer Protocol.":
+            e '"HTTP adalah HyperText Transfer Protocol!" Bagian terakhir menyatu dengan menara, menyelesaikan struktur megah Menara Pengetahuan Menengah.'
             jump level_2_completed
         "HTTP adalah Hosting Transfer Protocol.":
             jump try_again_level_2_5
@@ -238,7 +246,7 @@ label level_2_part_5:
 
 label level_2_completed:
     scene bg level2_completed
-    e "Selamat! Tower level ini selesai dibangun!"
+    e 'Ari merasa lebih percaya diri dan semakin bersemangat untuk melanjutkan ke level berikutnya.'
     jump main_menu
 
 label try_again_level_2:
@@ -264,14 +272,17 @@ label try_again_level_2_5:
 # Implementasi Level 3
 label level_3:
     scene bg level3_start
-    e "Sekarang saatnya menghadapi tantangan terberat. Ini adalah level terakhir!"
+    e '"Kau telah sampai di tahap terakhir," ujar suara itu. "Menara Pengetahuan Mahir adalah ujian akhir untuk membuktikan pemahamanmu yang mendalam."'
     jump level_3_part_1
 
 label level_3_part_1:
     scene bg level3_1
-    e "Bagian pertama dimulai. Jawab pertanyaan ini!"
+    e 'Di depan Ari, menara terakhir menjulang, namun sebagian besar masih berupa kerangka. Ia harus menjawab lima pertanyaan terakhir untuk menyempurnakannya.'
+    e '"Pertama, kita butuh fondasi data."'
+    e 'Apa kegunaan SQL?'
     menu:
         "SQL digunakan untuk mengelola database.":
+            e '"SQL digunakan untuk mengelola database!" jawab Ari dengan mantap. Fondasi menara langsung menyala, memancarkan cahaya yang kokoh.'
             jump level_3_part_2
         "SQL adalah framework frontend.":
             jump try_again_level_3
@@ -282,61 +293,84 @@ label level_3_part_1:
 
 label level_3_part_2:
     scene bg level3_2
-    e "Bagian kedua selesai. Jawab pertanyaan berikutnya!"
+    e '"Selanjutnya, kita butuh wadah yang kuat untuk sistem ini," kata suara itu. "Apa kegunaan Docker?"'
     menu:
         "Docker digunakan untuk containerization.":
+            e '"Docker digunakan untuk containerization!" jawab Ari. Bagian kedua dari menara mulai menyatu, menambah struktur yang stabil.'
             jump level_3_part_3
         "Docker digunakan untuk debugging.":
-            jump try_again_level_3
+            jump try_again_level_3_2
         "Docker digunakan untuk frontend styling.":
-            jump try_again_level_3
+            jump try_again_level_3_2
         "Docker digunakan untuk hosting file.":
-            jump try_again_level_3
+            jump try_again_level_3_2
 
 label level_3_part_3:
     scene bg level3_3
-    e "Bagian ketiga sangat penting! Jawab pertanyaan ini!"
+    e '"Kita memerlukan penghubung antar sistem. Jawablah pertanyaan ini: Apa kegunaan API?"'
     menu:
         "API memungkinkan komunikasi antara sistem.":
+            e '"API memungkinkan komunikasi antara sistem!" Ari menjawab dengan penuh keyakinan. Bagian ketiga menara menyala, menyempurnakan koneksi antarbagian.'
             jump level_3_part_4
         "API digunakan untuk menyimpan data lokal.":
-            jump try_again_level_3
+            jump try_again_level_3_3
         "API adalah library untuk framework tertentu.":
-            jump try_again_level_3
+            jump try_again_level_3_3
         "API adalah protokol untuk enkripsi data.":
-            jump try_again_level_3
+            jump try_again_level_3_3
 
 label level_3_part_4:
     scene bg level3_4
-    e "Bagian keempat hampir selesai. Pertanyaan ini kunci!"
+    e '"Selanjutnya, kita butuh teknologi untuk menyusun tampilan interaktif. Apa itu React?"'
     menu:
         "React adalah library untuk membuat UI.":
+            e '"React adalah library untuk membuat UI!" seru Ari. Bagian keempat menara menyatu, menambah dimensi visual yang memukau.'
             jump level_3_part_5
         "React adalah database untuk aplikasi.":
-            jump try_again_level_3
+            jump try_again_level_3_4
         "React adalah bahasa pemrograman baru.":
-            jump try_again_level_3
+            jump try_again_level_3_4
         "React adalah web server framework.":
-            jump try_again_level_3
+            jump try_again_level_3_4
 
 label level_3_part_5:
     scene bg level3_5
-    e "Ini adalah bagian terakhir! Jawab pertanyaan terakhir!"
+    e '"Terakhir, kau harus memahami arsitektur modern. Apa itu RESTful API?"'
     menu:
         "RESTful API adalah pendekatan arsitektur API.":
+            e '"RESTful API adalah pendekatan arsitektur API!" jawab Ari dengan penuh semangat. Bagian terakhir menara melesat ke tempatnya, melengkapi struktur megah Menara Pengetahuan Mahir.'
             jump level_3_completed
         "RESTful API adalah framework backend.":
-            jump try_again_level_3
+            jump try_again_level_3_5
         "RESTful API adalah library frontend.":
-            jump try_again_level_3
+            jump try_again_level_3_5
         "RESTful API adalah database.":
-            jump try_again_level_3
+            jump try_again_level_3_5
 
 label level_3_completed:
     scene bg level3_completed
-    e "Selamat! Tower terakhir selesai dibangun! Petualanganmu berhasil!"
+    e 'Menara Pengetahuan Mahir kini berdiri kokoh, bersinar dengan keagungan dan simbol inovasi. Ketiga menara kini terhubung, membentuk jaringan cahaya yang memancar hingga ke langit. Suara misterius kembali berbicara, kini terdengar jelas di sekeliling Ari.'
+    e '"Kau telah membuktikan dirimu, Ari. Menara Teknologi telah dibangun kembali berkat keberanian dan pengetahuanmu. Dunia kini memiliki simbol yang akan terus menginspirasi generasi mendatang."'
+    e 'Ari tersenyum lebar, merasa bangga atas perjuangannya. Ia tahu perjalanan ini bukan hanya soal membangun menara, tetapi juga tentang memahami dan menguasai ilmu teknologi yang akan terus ia bawa dalam hidupnya.'
+    e 'Tamat.'
     return
 
 label try_again_level_3:
     e "Jawaban salah! Coba lagi."
     jump level_3_part_1
+
+label try_again_level_3_2:
+    e "Jawaban salah! Coba lagi."
+    jump level_3_part_2
+
+label try_again_level_3_3:
+    e "Jawaban salah! Coba lagi."
+    jump level_3_part_3
+
+label try_again_level_3_4:
+    e "Jawaban salah! Coba lagi."
+    jump level_3_part_4
+
+label try_again_level_3_5:
+    e "Jawaban salah! Coba lagi."
+    jump level_3_part_5
