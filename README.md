@@ -21,6 +21,7 @@ Setelah berhasil meng-clone repository:
      - Di MacOS/Linux: `/home/[username]/RenPy/projects/[NAMA-FOLDER-GAME]`
 3. Buka aplikasi Ren'Py dan periksa daftar project yang muncul di aplikasi.
 4. Pilih nama game Anda dari daftar tersebut.
+5. Atau bisa Create New Project di kiri bawah lalu copas aja bagian script.rpy,images,audio ini versi sederhanaku
 
 ### 4. **Jalankan Game**
 1. Setelah game dipilih, klik tombol **Launch Project** di aplikasi Ren'Py.
@@ -30,6 +31,7 @@ Setelah berhasil meng-clone repository:
 - Jika terdapat bug atau masalah, pastikan Anda:
   - Menggunakan versi terbaru dari Ren'Py.
   - Tidak mengubah struktur folder di dalam project.
-- Jika ingin memodifikasi game, Anda dapat mengedit file script di folder hasil clone menggunakan editor teks seperti Visual Studio Code atau Notepad++.
+- Jika ingin memodifikasi game, Anda dapat mengedit dengan cara pilih script.rpy di launcher atau yang lainnya disebelah kanan.
 
 Selamat bermain dan menikmati game ini! 🚀
+Kalau ada bug atau revisi infokan
